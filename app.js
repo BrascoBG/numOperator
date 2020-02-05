@@ -18,7 +18,7 @@ function numbers([arg1, arg2 ,arg3]){
   } else if(operator === "%"){
     solution = n1 % n2;
   }
-  if(solution % 2 == 0){
+  if(solution % 2 == 0){  //evenOdd = solution % 2 == 0 ? "even" : "odd"; 
     evenOdd = "Even";
   } else{
     evenOdd = "Odd"
